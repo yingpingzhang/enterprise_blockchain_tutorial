@@ -16,6 +16,7 @@
 
 
 ![大话区块链](pic/book_and_project.png) 
+
 0-1 大话区块链和电力交易项目
 </div>
 
@@ -26,6 +27,7 @@
 
 
 ![第十八次集体学习](pic/learn.png)
+
 0-2 第十八次集体学习
 </div>
 
@@ -37,6 +39,7 @@
 
 
 ![超级账本成员](pic/hyperledger_member.png)
+
 0-3 超级账本成员
 </div>
 

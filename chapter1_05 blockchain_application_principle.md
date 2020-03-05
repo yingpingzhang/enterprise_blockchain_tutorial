@@ -7,7 +7,7 @@
 <div align=center>
 
 
-![大话区块链](pic/blockchain_application_principle.png "分布式记账") 
+![大话区块链](./pic/blockchain_application_principle.png "分布式记账") 
 
 1-05 区块链应用原则
 </div>

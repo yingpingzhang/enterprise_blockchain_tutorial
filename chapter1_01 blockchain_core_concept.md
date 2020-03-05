@@ -7,7 +7,7 @@
 <div align=center>
 
 
-![大话区块链](pic/distributed.png "分布式记账") 
+![大话区块链](./pic/distributed.png "分布式记账") 
 
 1-01 分布式记账
 </div>

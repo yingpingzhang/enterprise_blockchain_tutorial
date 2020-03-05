@@ -7,7 +7,7 @@
 <div align=center>
 
 
-![大话区块链](pic/types_of_blockchain.png "区块链的分类") 
+![大话区块链](./pic/types_of_blockchain.png "区块链的分类") 
 
 1-02 区块链的分类
 </div>

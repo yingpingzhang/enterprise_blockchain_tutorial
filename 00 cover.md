@@ -4,7 +4,7 @@
 <div align=center>
 
 
-![第十八次集体学习](pic/learn.png)
+![第十八次集体学习](./pic/learn.png)
 
 0-1 第十八次集体学习
 </div>
@@ -16,7 +16,7 @@
 <div align=center>
 
 
-![超级账本成员](pic/hyperledger_member.png)
+![超级账本成员](./pic/hyperledger_member.png)
 
 0-2 超级账本成员
 </div>

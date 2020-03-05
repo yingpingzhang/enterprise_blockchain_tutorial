@@ -24,7 +24,7 @@
 <div align=center>
 
 
-![大话区块链](pic/bitcoin_transaction.png "分布式记账") 
+![大话区块链](./pic/bitcoin_transaction.png "分布式记账") 
 
 1-04-01 比特币转账
 </div>
@@ -48,7 +48,7 @@
 <div align=center>
 
 
-![大话区块链](pic/bitcoin_paper.png "比特币白皮书") 
+![大话区块链](./pic/bitcoin_paper.png "比特币白皮书") 
 
 1-04-02 比特币白皮书
 </div>

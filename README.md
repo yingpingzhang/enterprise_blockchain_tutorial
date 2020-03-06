@@ -15,9 +15,17 @@
 <div align=center>
 
 
-![大话区块链](pic/book_and_project.png) 
+![大话区块链](./pic/book.jpg) 
 
-0-1 大话区块链和电力交易项目
+0-0 《大话区块链》
+</div>
+
+<div align=center>
+
+
+![大话区块链](./pic/project.jpg) 
+
+0-1 基于区块链的电力交易
 </div>
 
 ## 课程简介

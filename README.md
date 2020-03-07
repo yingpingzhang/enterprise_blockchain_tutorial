@@ -2,7 +2,7 @@
 <div align=center>
 
 
-![大话区块链](./pic/cover/4.png) 
+![企业级区块链实战课程](./pic/cover/4.png) 
 </div>
 
 

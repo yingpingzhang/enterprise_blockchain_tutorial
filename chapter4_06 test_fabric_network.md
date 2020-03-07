@@ -54,7 +54,7 @@ peer chaincode install -n mycc -v 1.0 -p github.com/chaincode/chaincode_example0
 4-06_02 在Org2 Peer0 成功安装链码
 </div>
 
-## 初始化链码
+## 实例化链码
 
 接下来，在channel上实例化链码。这里需要特别注意-P参数——用来指定链码的背书策略。
 
@@ -157,4 +157,4 @@ peer chaincode query -C $CHANNEL_NAME -n mycc -c '{"Args":["query","a"]}'
 4-06_06 在Org2 Peer1上验证链码逻辑
 </div>
 
-**通过以上链码安装、初始化及链码逻辑验证，表明Fabric网络运行正常。**
+**通过以上链码安装、实例化及链码逻辑验证，表明Fabric网络运行正常。**

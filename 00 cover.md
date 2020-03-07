@@ -2,7 +2,7 @@
 <div align=center>
 
 
-![大话区块链](./pic/cover/2.png) 
+![大话区块链](./pic/cover/4.png) 
 </div>
 
 ## 作者简介

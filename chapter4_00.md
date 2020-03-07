@@ -21,12 +21,12 @@
 分享完我的学习经历之后，接下来我们详细讲解一个完整的Fabric网络搭过程。
 
 本章主要内容：
-[网络概况5 Orderer +4 Peer+1 CLI](./chapter4_01%20fabric_network_overview.md)
-[生成证书文件](./chapter4_02%20generate_certificate.md)
-[生成交易相关文件](./chapter4_03%20configuration_transaction.md)
-[启动网络节点](./chapter4_04%20bring_up_network.md)
-[网络配置](./chapter4_05%20create_join_channel.md)
-[网络测试](./chapter4_06%20test_fabric_network.md)
-[网络搭建详解知识总结](./chapter4_07_summary.md)
+* [网络概况5 Orderer +4 Peer+1 CLI](./chapter4_01%20fabric_network_overview.md)
+* [生成证书文件](./chapter4_02%20generate_certificate.md)
+* [生成交易相关文件](./chapter4_03%20configuration_transaction.md)
+* [启动网络节点](./chapter4_04%20bring_up_network.md)
+* [网络配置](./chapter4_05%20create_join_channel.md)
+* [网络测试](./chapter4_06%20test_fabric_network.md)
+* [网络搭建详解知识总结](./chapter4_07_summary.md)
 
 注意：本章内容主要基于[Fabric官方文档](https://hyperledger-fabric.readthedocs.io/en/release-1.4/build_network.html#)的Tutorials » Building Your First Network。

@@ -92,7 +92,9 @@ peer chaincode query -C $CHANNEL_NAME -n mycc -c '{"Args":["query","a"]}'
 
 4-06_04 查询链码
 </div>
+
 ## 调用
+
 invoke方法中，a向b转账100。
 
 ```

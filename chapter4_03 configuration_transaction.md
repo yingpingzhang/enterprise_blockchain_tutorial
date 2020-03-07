@@ -84,6 +84,7 @@ configtxgen -profile TwoOrgsChannel -outputAnchorPeersUpdate ./channel-artifacts
 </div>
 **注意：创世区块文件、通道配置交易文件以及需要的锚节点交易文件生成后会在channel-artifacts目录下生成channel.tx、genesis.block、 Org1MSPanchors.tx 、Org2MSPanchors.tx四个文件。**
 
+
 **通道知识点**
 
 通道是Fabric中非常重要的概念，它实际上是由排序节点划分和管理的私有原子广播通道，目的是对通道的信息进行隔离，使得通道外的实体无法访问通道内的信息，从而实现交易的隐私性。

@@ -139,7 +139,14 @@ Hyperledger Fabric是目前超级账本项目中发展最好的子项目，作�
 * 重点知识串讲
 * 后续学习建议
 
+## 参考资料
+
+1. 张应平，[《大话区块链》](https://item.jd.com/12719282.html)，清华大学出版社，2019年.
+2. [Fabric官方文档](https://hyperledger-fabric.readthedocs.io/en/release-1.4)
+   
 **如果您觉着本教程写的不错，欢迎打赏、点赞、转发，您的支持是我做免费区块链教程的动力。**
+
+
 
 <div align=center>
 

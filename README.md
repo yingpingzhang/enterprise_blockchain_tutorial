@@ -2,7 +2,7 @@
 <div align=center>
 
 
-![企业级区块链实战教程](./pic/cover/6.png)
+![企业级区块链实战教程](./pic/cover/7.png)
 </div>
 
 ## 作者简介

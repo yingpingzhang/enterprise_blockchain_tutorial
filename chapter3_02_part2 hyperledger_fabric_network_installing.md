@@ -1,6 +1,5 @@
-# Hyperledger Fabric 网络体验
-## Fabric网络环境
-
+## Hyperledger Fabric 网络体验
+### Fabric网络环境
 Fabric网络环境搭建有两种方式：
 
 **第一种方式是使用脚本文件直接安装。** 过程比较简单，比较适合学习和了解Fabric网络。

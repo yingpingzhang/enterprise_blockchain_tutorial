@@ -1,6 +1,5 @@
-# Hyperledger Fabric 网络体验
-## 系统环境配置
-
+## Hyperledger Fabric 网络体验
+### 系统环境配置
 1. 操作系统
    
    常见的Linux 发行版（包括Ubuntu 、Redhat 、CentOS 等）和MacOS 等都支持Fabric 编译和运行。

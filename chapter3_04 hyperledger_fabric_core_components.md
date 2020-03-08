@@ -1,8 +1,8 @@
-# Hyperledger Fabric核心组件
+## Hyperledger Fabric核心组件
 
 要理解Fabric的设计，需要对Fabric核心组件进行进一步学习掌握Fabric的底层运行原理，才能真正理解Fabric的设计初衷。
 
-## Fabric网络（Network）
+### Fabric网络（Network）
 
 在Fabric网络中，Peer和Orderer采用gRPC（Google RPC）对外提供远程服务，供客户端进行调用。网络中的节点之间通过Gossip 协议来进行状态同步和分发。
 Gossip 协议是P2P 领域的常见协议，用于进行网络内多个节点之间的数据分发或信息交换。由于其设计简单，容易实现，同时容错性比较高，而被广泛应用到了许多分布式系。
@@ -33,7 +33,7 @@ Gossip 协议的基本思想十分简单，数据发送方从网络中随机选�
 
 **通常情况下，除了用户节点，Fabric网络所有的全节点都具备Commiter功能，部分节点具有Endorser、Orderer功能。锚节点是一种外部可发现的节点，配置了对外服务的端口，如果某个Peer节点被配置成锚节点，这就意味着该节点可以被Orderer节点和其它任何节点发现。证书节点是一个相对独立证书管理机构，也可以由第三方证书机构来承担这个角色。**
 
-## Fabric共识（Orderer）
+### Fabric共识（Orderer）
 
 在第一章节中，我们提到共识机制就是保证不同计算机之间信息的一致性。
 
@@ -51,7 +51,7 @@ Fabric1.4.1中提供了Raft共识机制。Raft共识机制属于非拜占庭的�
 
 验证是对排序后的交易提交到账本之前最终的检查。检查的内容包含交易结构的合法性、交易背书签名是否符合背书策略等。
 
-## Fabric账本（Ledger）
+### Fabric账本（Ledger）
 
 在第一章节时我们通过比特币讲解过交易、区块、区块链这些概念，这里我们通过Fabric复习一下。在比特币中，交易信息里只包含了货币相关信息，在Fabric中交易（ transaction ）可以存储相关业务信息，比如一个苹果、一条鱼等等。区块（ block ）是一组排序后的交易集合，将区块通过密码算法连接起来就是区块链。
 
@@ -59,7 +59,7 @@ Fabric1.4.1中提供了Raft共识机制。Raft共识机制属于非拜占庭的�
 
 在Fabric中，通道隔离了交易，因此每个通道都拥有独立账本。
 
-## Fabric链码（Chaincode）
+### Fabric链码（Chaincode）
 
 智能合约在Fabric中也被称为链码（chaincode）。
 

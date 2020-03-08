@@ -1,4 +1,4 @@
-## 第三章 Hyperledger Fabric架构详解
+# 第三章 Hyperledger Fabric架构详解
 
 在[区块链技术选型](./chapter2_05%20selection_of_technology.md)章节，我们讨论了超级账本与比特币、以太坊的差别，超级账本中的Fabric项目在效率和隐私保护都远远超过了公链的设计。
 

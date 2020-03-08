@@ -1,8 +1,8 @@
-# Fabric 网络测试
+## Fabric 网络测试
 
 Peer 加人应用通道后，就可以执行链码相关操作进行网络测试。链码在调用之前，必须先经过安装（ Install ）和实例化（ Instantiate ）两个步骤。链码的详细知识会在第5章节进一步讲解。
 
-## 在Org1的Peer0上安装链码
+### 在Org1的Peer0上安装链码
 安装链码是将链码拷贝到Peer的文件系统（filesystem）。
 
 在Fabric网络中链码是按照名称和版本号来标识的，也就是说同一个链码再次安装链码必须修改名字或者版本号。peer chaincode install  -p参数指定的chaincode路径是链码在容器里相对$GOPATH/src的路径。
@@ -27,7 +27,7 @@ peer chaincode install -n mycc -v 1.0 -p github.com/chaincode/chaincode_example0
 4-06_02 在Org1 Peer0 成功安装链码
 </div>
 
-## 在Org2的Peer0上安装链码
+### 在Org2的Peer0上安装链码
 下面实例化链码时，链码的背书策略包含Org1和Org2，因此这一步我们需要在Org2上安装链码。由于仅仅背书节点需要模拟执行链码，因此没有必要将链码安装到所有节点上。
 
 **在安装链码时，确保下面四个环境变量设置为Org2的Peer0。**
@@ -54,7 +54,7 @@ peer chaincode install -n mycc -v 1.0 -p github.com/chaincode/chaincode_example0
 4-06_02 在Org2 Peer0 成功安装链码
 </div>
 
-## 实例化链码
+### 实例化链码
 
 接下来，在channel上实例化链码。这里需要特别注意-P参数——用来指定链码的背书策略。
 
@@ -77,7 +77,7 @@ peer chaincode instantiate -o orderer.example.com:7050 --tls --cafile /opt/gopat
 4-06_03 链码实例化
 </div>
 
-## 查询
+### 查询
 查询验证a的值，显示a的值是100，与预期值相符。
 
 ```
@@ -93,7 +93,7 @@ peer chaincode query -C $CHANNEL_NAME -n mycc -c '{"Args":["query","a"]}'
 4-06_04 查询链码
 </div>
 
-## 调用
+### 调用
 
 invoke方法中，a向b转账100。
 
@@ -124,7 +124,7 @@ peer chaincode query -C $CHANNEL_NAME -n mycc -c '{"Args":["query","a"]}'
 4-06_06 查询链码验证逻辑
 </div>
 
-## 在Org2的Peer1上安装链码并查询
+### 在Org2的Peer1上安装链码并查询
 
 在Org2的Peer1上安装链码并查询验证a的值，与之前Org1和Org2的Peer0结果相同。执行以下命令：
 

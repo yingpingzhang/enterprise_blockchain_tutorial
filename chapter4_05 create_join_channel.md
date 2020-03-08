@@ -1,5 +1,5 @@
-# 网络配置
-## 创建通道
+## 网络配置
+### 创建通道
 
 如果有需要，可以使用参照4.3.2继续创建通道配置交易文件。这里我们使用上面已经创建的通道配置交易文件（channel.tx）创建mychannel。
 
@@ -79,7 +79,7 @@ peer channel create命令是用来创建一个通道，并输出一个创世区�
 --tls                      与orderer交互时使用TLS进行通道加密，这里使用的是 orderer的tlscacerts下的pem证书
 ```
 
-## 加入通道
+### 加入通道
 输入以下命令将Org1的Peer0加入通道：
 ```
 # By default, this joins ``peer0.org1.example.com`` only
@@ -123,6 +123,7 @@ CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypt
 
 4-05_06 加入通道后环境变量恢复为初始值
 </div>
+
 ## 更新锚节点配置
 锚节点负责组织中节点与其他组织中的节点进行Gossip 通信。
 

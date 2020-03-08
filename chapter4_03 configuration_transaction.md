@@ -1,4 +1,4 @@
-# 生成交易相关文件
+## 生成交易相关文件
 使用configtxgen工具生成Orderer的创世区块文件、通道配置交易文件以及锚节点交易文件。
 
 创世区块是Orderer服务的第一个区块，通道配置文件会在之后创建通道时广播到Orderer节点，锚节点交易文件是指定各组织对外通讯的节点。
@@ -21,7 +21,7 @@
 4-03_02 configtx.yaml文件2
 </div>
 
-## 生成创世区块文件
+### 生成创世区块文件
 
 在网络根目录下，输入以下命令：
 
@@ -52,7 +52,7 @@ configtxgen -profile SampleMultiNodeEtcdRaft -channelID byfn-sys-channel -output
 
 创世区块文件和后续的文件都会保存在channel-artifacts目录下。这里的channelID是系统通道的名字。
 
-## 生成通道配置文件
+### 生成通道配置文件
 **创建通道配置交易文件**。执行以下命令：
 ```
 # The channel.tx artifact contains the definitions for my channel

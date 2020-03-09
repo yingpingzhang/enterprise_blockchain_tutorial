@@ -1,0 +1,7 @@
+/.nyc_output
+/coverage
+/.vscode
+/build
+/node_modules
+.travis.*
+tslint.json

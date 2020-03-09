@@ -34,7 +34,7 @@
 
 完整的应用程序我已经放在了[源码目录](./src/fabric-material)下，下载完成后通过FTP工具上传到之前配置好的Ubuntu系统，执行以下命令：
 
-1. 启动网络
+**1. 启动网络**
 ```
 #进入到程序目录
 cd fabric-material/tuna-app
@@ -42,9 +42,9 @@ cd fabric-material/tuna-app
 ./startFabric.sh
 ```
 
-2. 安装Node.js相关依赖文件，按照以下顺序启动应用程序
+**2. 安装Node.js相关依赖文件，按照以下顺序启动应用程序。**
 ```
-# 按照node.js依赖文件
+# 安装node.js依赖文件
 $ npm install
 # 注册Admin
 $ node registerAdmin.js
@@ -53,7 +53,14 @@ $ node registerUser.js
 # 启动应用程序
 $ node server.js
 ```
-3. 通过浏览器访问localhost:8000，即可访问。
+**3. 通过浏览器访问localhost:8000，即可访问。**  
+**4. 每次学习完毕，记着通过以下命令清除docker容器和密钥文件。**
+```
+$ docker rm -f $(docker ps -aq)
+
+$ cd ~
+$ rm -rf .hfc-key-store/
+```
 
 ### 主要应用逻辑
 

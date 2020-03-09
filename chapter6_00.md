@@ -15,3 +15,4 @@
 * [智能合约设计开发](./chapter6_04%20smartcontract_dev.md)
 * [Fabric SDK](./chapter6_05%20fabric_sdk.md)
 * [区块链应用开发](./chapter6_06%20blockchain_application_dev.md)
+* [区块链溯源案例分析知识总结](./chapter6_07%20summary.md)

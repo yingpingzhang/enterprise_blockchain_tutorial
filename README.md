@@ -99,8 +99,8 @@ Hyperledger Fabric是目前超级账本项目中发展最好的子项目，作�
 * [Hyperledger Fabric 网络体验——系统环境配置](./chapter3_02_part1%20hyperledger_fabric_network_prerequisites.md)
 * [Hyperledger Fabric 网络体验——Fabric网络环境](./chapter3_02_part2%20hyperledger_fabric_network_installing.md)
 * [Hyperledger Fabric 网络体验——网络启动过程概览](./chapter3_02_part3%20hyperledger_fabric_network_bring_up.md)
-* [Hyperledger Fabric系统架构](./chapter3_03%20hyperledger_fabric_architecture.md)
-* [Hyperledger Fabric核心组件](./chapter3_04%20hyperledger_fabric_core_components.md)
+* [Hyperledger Fabric 系统架构](./chapter3_03%20hyperledger_fabric_architecture.md)
+* [Hyperledger Fabric 核心组件](./chapter3_04%20hyperledger_fabric_core_components.md)
 * [Hyperledger Fabric 典型交易流程](./chapter3_05%20hyperledger_fabric_workflow_of_transaction.md)
 * [Hyperledger Fabric 架构详解知识总结](./chapter3_06%20summary.md)
 

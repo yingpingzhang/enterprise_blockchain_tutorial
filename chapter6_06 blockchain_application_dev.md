@@ -10,17 +10,21 @@
 <div align=center>
 
 
-![系统原型](./pic/auto/image117.jpg) 
+![首页](./pic/auto/image117.jpg) 
 
-6-06-01 系统原型
+6-06-01 首页
 
-![系统原型](./pic/auto/image118.jpg) 
+![查询](./pic/auto/image118.jpg) 
 
-6-06-02 系统原型
+6-06-02 查询
 
-![系统原型](./pic/auto/image119.jpg) 
+![创建新的货物](./pic/auto/image119.jpg) 
 
-6-06-03 系统原型
+6-06-03 创建新的货物
+
+![创建新的货物](./pic/auto/image120.jpg) 
+
+6-06-04 修改货物拥有者
 </div>
 
 ### 主要应用程序文件
@@ -29,7 +33,7 @@
 
 ![主要应用程序文件](./pic/auto/image121.jpg) 
 
-6-06-04 主要应用程序文件
+6-06-05 主要应用程序文件
 </div>
 
 完整的应用程序我已经放在了[源码目录](./src/fabric-material)下，下载完成后通过FTP工具上传到之前配置好的Ubuntu系统，执行以下命令：
@@ -54,7 +58,15 @@ $ node registerUser.js
 $ node server.js
 ```
 **3. 通过浏览器访问localhost:8000，即可访问。**  
+<div align=center>
+
+
+![基于区块链的溯源系统](./pic/Hyperledger_fabirc_tuna_application.png) 
+
+6-06-06 基于区块链的溯源系统
+</div>
 **4. 每次学习完毕，记着通过以下命令清除docker容器和密钥文件。**
+
 ```
 $ docker rm -f $(docker ps -aq)
 

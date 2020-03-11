@@ -32,7 +32,7 @@
 
 本教程与系统开发相关的章节如下：
 * [区块链技术理论](./chapter1_00.md)
-* [区块链开发实战预备知识](./chapter2%2000.md)
+* [区块链开发实战预备知识](./chapter2_00.md)
 * [Hyperledger Fabric 架构详解](./chapter3_00.md)
 * [区块链溯源案例分析](./chapter6_00.md)
 
@@ -42,7 +42,7 @@
 本教程与系统运维相关的章节如下：
 * [区块链技术理论](./chapter1_00.md)
 * [Hyperledger Fabric 架构详解](./chapter3_00.md)
-* [Fabric网络搭建详解](./chapter3_00.md)
+* [Fabric网络搭建详解](./chapter4_00.md
 
 ## 后续学习建议
 从学习角度来说，这里推荐大家可以花点时间参加一下官方的[CHFA证书](https://training.linuxfoundation.org/training/hyperledger-fabric-administration-lfs272/)。

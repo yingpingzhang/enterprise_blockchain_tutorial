@@ -58,13 +58,15 @@ $ node registerUser.js
 $ node server.js
 ```
 **3. 通过浏览器访问localhost:8000，即可访问。**  
-<div align=center>
+
+
+
 
 
 ![基于区块链的溯源系统](./pic/Hyperledger_fabirc_tuna_application.png) 
 
 6-06-06 基于区块链的溯源系统
-</div>
+
 **4. 每次学习完毕，记着通过以下命令清除docker容器和密钥文件。**
 
 ```

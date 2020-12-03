@@ -59,13 +59,13 @@ $ node server.js
 ```
 **3. 通过浏览器访问localhost:8000，即可访问。**  
 
-
-
-
-
 ![基于区块链的溯源系统](./pic/Hyperledger_fabirc_tuna_application.png) 
 
 6-06-06 基于区块链的溯源系统
+
+**注意：如果你的页面显示出现下面的错误，请检查本机（虚拟机）的网络是否可以正常连接Google API。**
+
+![image-20201203141839660](C:\Users\Dell\AppData\Roaming\Typora\typora-user-images\image-20201203141839660.png)
 
 **4. 每次学习完毕，记着通过以下命令清除docker容器和密钥文件。**
 
